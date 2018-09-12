@@ -13,8 +13,8 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		System.out.println("Following subjects are covered so far.");
-		System.out.println("\t" + i++ + " . " + "Java and JDK installation");
-		System.out.println("\t" + i++ + " . " +"Github integration");
+		System.out.println("\t " + i++ + " . " + "Java and JDK installation");
+		System.out.println("\t " + i++ + " . " +"Github integration");
 	}
 	
 }
