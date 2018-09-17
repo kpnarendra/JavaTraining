@@ -17,10 +17,10 @@ public class PropertiesOfClass {
 		System.out.println("myBoxDup @ 3 = " + myBoxDup);
 		System.out.println("myBox and myBoxDup are same have myBox.equals(myBoxDup) is : "+myBox.equals(myBoxDup));
 		System.out.println("hisBox @ 4 =" + hisBox);
-		System.out.println("myBox @ 2 = " + myBox);
-		System.out.println("hisBox @ 1 =" + hisBox);
+		System.out.println("myBox @ 5 = " + myBox);
+		System.out.println("hisBox @ 6 =" + hisBox);
 
-
+		hisBox = new Box();
 		System.out.println("myBox reference : " + myBox.getClass());
 		System.out.println("Super class of any class : " + myBox.getClass().getSuperclass().toString());
 
