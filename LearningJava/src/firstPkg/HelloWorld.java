@@ -23,7 +23,8 @@ public class HelloWorld {
 		//The code is synchronised in Git hub path : https://github.com/kpnarendra/JavaTraining.git
 		//Logged in from user : kpnarendra@aol.com
 		System.out.println("\t " + i++ + " . " +"Github integration.");
-		
+		System.out.println("\t " + i++ + " . " + "Classes and methods");
+		System.out.println("\t " + i++ + " . " + "Constructors");
 		System.out.println("\n\n===================================================================================================================\n\n");
 		
 		 classProp.printProprtiesOfClass();
