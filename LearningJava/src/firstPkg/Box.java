@@ -19,7 +19,7 @@ public class Box {
 	}
 	
 	Box(double width, double height, double depth){
-		System.out.println("Constructed a box with dimentions w,h,d - " + this + "with hashcode : " + this.hashCode());
+		System.out.println("Constructed a box with dimentions w,h,d - " + this + " with hashcode : " + this.hashCode());
 		
 		this.width=width;
 		this.height=height;
