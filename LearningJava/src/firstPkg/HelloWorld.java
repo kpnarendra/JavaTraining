@@ -3,6 +3,8 @@
  */
 package firstPkg;
 
+import java.io.StringReader;
+
 /**
  * @author narendrakp
  *This class has print statements that will track the learning progress.
