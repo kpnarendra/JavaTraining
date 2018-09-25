@@ -1,1 +1,1 @@
-1. Why are primitive data types not using new to instanciate? How are they implemented? How to convert a user defined class to a primitive variable?
+1. Why are primitive data types not using new to instantiate? How are they implemented? How to convert a user defined class to a primitive variable?

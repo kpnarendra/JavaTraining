@@ -41,7 +41,21 @@ public class PropertiesOfClass {
 		System.out.println("Height of realBox is : "+realBox.getBoxHeight());
 		System.out.println("Depth of realBox is : "+realBox.getBoxDepth());
 		
+		
+		System.out.println("Calling overloadedMethod with No Parameters : " );
+		myBox.overloadedMethod();
 	
+		double par1 = 10.0;
+		System.out.println("Calling overloadedMethod with double Parameter <not present an overloaded method> : " );
+		myBox.overloadedMethod((int) par1); // need to type cast double to int as Java does automatic type casting to heavier variable 
+	
+		int par2 = (int) par1;
+		
+		double par3 = par2; // type casting from int to double is automatically handled by java.
+		
+		System.out.println("Calling overloadedMethod with string Parameter : " );
+		myBox.overloadedMethod("testing with string");
+		
 	}
 
 }
