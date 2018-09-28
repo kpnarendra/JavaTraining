@@ -57,5 +57,15 @@ public class PropertiesOfClass {
 		myBox.overloadedMethod("testing with string");
 		
 	}
+	
+	Box b1 = new Box(10.0,20.0,30.0);
+	Box b2 = new Box(10,20,30);
+	
+	void checkBox(){
+		//System.out.println(b1=b2);
+		System.out.println("b1.equals b2 : " + b1.equals(b2));
+		
+	}
+	
 
 }

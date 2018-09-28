@@ -31,6 +31,8 @@ public class HelloWorld {
 		
 		 classProp.printProprtiesOfClass();
 		
+		 classProp.checkBox();
+		
 		
 	}
 	
